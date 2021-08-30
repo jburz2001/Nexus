@@ -17,7 +17,7 @@ from matplotlib.figure import Figure
 from matplotlib.backends.backend_tkagg import *
 import matplotlib.pyplot as plt
 
-from functions_copy import *
+from functions import *
 
 
 class App(tk.Tk):
@@ -25,7 +25,7 @@ class App(tk.Tk):
     def __init__(self):
         super().__init__()
 
-        appTitle = "Fotoshoop"
+        appTitle = "Image Nexus"
         self.title(appTitle)
 
         factor = 1.618
@@ -67,7 +67,7 @@ class App(tk.Tk):
 
         l2padx = 2
         l2pady = l2padx
-        l2color = "blue"
+        l2color = "white"
         l2padding = {
             "padx": l2padx,
             "pady": l2pady,
@@ -84,11 +84,13 @@ class App(tk.Tk):
         lColors = (l1color, l2color)
         lPaddings = (l1padding, l2padding)
 
-        self.create_topSection(lColors, lPaddings)
+        # self.create_topSection(lColors, lPaddings)
         self.create_transformationSection(lColors, lPaddings)
         self.create_contentSection(lColors, lPaddings)
         self.create_footerSection(lColors, lPaddings)
 
+    # unused section
+    """
     def create_topSection(self, lColors, lPaddings):
         # l1color = layerData.get("l1data")[0]
         # l1padding = layerData.get("l1data")[1]
@@ -108,6 +110,7 @@ class App(tk.Tk):
         labelFrame_topBar.pack(side=tk.TOP, fill=tk.X,
                                **l1padding
                                )
+    """
 
     def create_transformationSection(self, lColors, lPaddings):
         l1color, l2color = lColors[0], lColors[1]
@@ -149,10 +152,12 @@ class App(tk.Tk):
         menuWidth = len(max(listOfTransformations, key=len))
         optionMenu_transformations.config(width=int(menuWidth))
         optionMenu_transformations.pack()
-
+        # s = "Selected transformation: {}".format(
+        #     self.selectedTransformation.get())
         label_transformations = tk.Label(labelFrame_transformations,
-                                         textvariable=self.selectedTransformation
+                                         #  textvariable=self.selectedTransformation
                                          )
+        # label_transformations.config(textvariable=s)
         label_transformations.pack()
 
         # ANCHOR FILE PATHS
