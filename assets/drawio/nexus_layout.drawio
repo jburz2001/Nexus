@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" modified="2021-12-11T11:32:00.361Z" agent="5.0 (Windows)" etag="ZL7Hmjn8qs6Hb6v83fvY" version="15.8.8" type="github">
+  <diagram id="jk6jxz0FCeMK61UESMYt" name="Page-1">
+    <mxGraphModel dx="1021" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mxyE9RJrq9328s61NWDm-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="760" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="mxyE9RJrq9328s61NWDm-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="70" width="390" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="mxyE9RJrq9328s61NWDm-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="70" width="180" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="mxyE9RJrq9328s61NWDm-14" value="Image" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="80" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mxyE9RJrq9328s61NWDm-15" value="" style="triangle;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="190" y="105" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mxyE9RJrq9328s61NWDm-16" value="Frame" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="160" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mxyE9RJrq9328s61NWDm-17" value="" style="triangle;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="190" y="185" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mxyE9RJrq9328s61NWDm-18" value="File" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="40" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mxyE9RJrq9328s61NWDm-20" value="Operation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="240" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mxyE9RJrq9328s61NWDm-21" value="" style="triangle;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="190" y="260" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mxyE9RJrq9328s61NWDm-22" value="Execute Operation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mxyE9RJrq9328s61NWDm-23" value="Operation information" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="70" width="150" height="380" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
